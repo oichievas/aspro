@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="fonts/RF Tone/stylesheet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>ASPRO light</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="menu logo_ul">
+            <li>
+              <a href=""><img src="img/logo.png" alt="" srcset="" /></a>
+            </li>
+            <li>
+              Профессиональные световые
+              <br />
+              решения.
+            </li>
+          </ul>
+          <ul class="menu nav_ul">
+            <li><a href="">Каталог</a></li>
+            <li><a href="">Решения</a></li>
+            <li><a href="">Проекты</a></li>
+            <li><a href="">Партнерам</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+          <ul class="menu icons_ul">
+            <li>
+              <a href=""> <img src="img/bin.png" alt="" srcset="" /> </a>
+            </li>
+            <li>
+              <a href=""> <img src="img/search.png" alt="" srcset="" /> </a>
+            </li>
+            <li>
+              <a href=""> <img src="img/line.png" alt="" srcset="" /> </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Slider -->
+      <section class="single-item autoplay">
+        <div>
+          <p class="text_slider">
+            Свет, который делает <br />
+            интерьер уютнее
+          </p>
+        </div>
+        <div>
+          <p class="text_slider">
+            Свет, который делает <br />
+            интерьер уютнее
+          </p>
+        </div>
+        <div>
+          <p class="text_slider">
+            Свет, который делает <br />
+            интерьер уютнее
+          </p>
+        </div>
+      </section>
+      <!-- Slider End -->
+
+      <!-- Text under slider -->
+      <section class="container text_block">
+        <div class="left_text">
+          ASPRO Light – российский <br />
+          производитель светильников для <br />
+          коммерческих и частных <br />
+          интерьеров.
+        </div>
+        <div class="right_text">
+          <div>
+            <h5>
+              ПОЛНЫЙ ЦИКЛ <br />
+              ПРОИЗВОДСТВА
+            </h5>
+            <p>
+              От идеи и разработки до <br />
+              сборки и упаковки
+            </p>
+          </div>
+          <div>
+            <h5>
+              10 ЛЕТ <br />
+              ГАРАНТИЯ
+            </h5>
+            <p>На светильники</p>
+          </div>
+          <div>
+            <h5>
+              КАСТОМИЗАЦИЯ <br />
+              ПОД ПРОЕКТ
+            </h5>
+            <p>
+              Изменения размера, <br />
+              цвета, формы под Ваши <br />
+              требования
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Text under slider  End-->
+
+      <!-- Catalog -->
+      <section class="container catalog">
+        <div class="title">
+          <h2>Каталог светильников</h2>
+          <a href="#"><p>Смотреть все категории</p></a>
+        </div>
+      </section>
+      <!-- Catalog End -->
+    </main>
+
+    <footer></footer>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".single-item").slick();
+        $(".autoplay").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+        });
+      });
+    </script>
+  </body>
+</html>
