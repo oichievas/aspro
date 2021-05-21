@@ -50,7 +50,7 @@
 
     <main>
       <!-- Slider -->
-      <section class="single-item autoplay">
+      <section class="single-item autoplay slider_banner">
         <div>
           <p class="text_slider">
             Свет, который делает <br />
@@ -115,12 +115,190 @@
 
       <!-- Catalog -->
       <section class="container catalog">
-        <div class="title">
+        <div class="catalog_title">
           <h2>Каталог светильников</h2>
           <a href="#"><p>Смотреть все категории</p></a>
         </div>
+        <div class="catalog_wrap">
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_line.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_ring.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_circle.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_curly.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_x.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_circle.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_curly.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+          <div class="catalog_block">
+            <div class="catalog_inblock">
+              <img src="img/catalog_x.png" alt="" />
+              <p>
+                Прямоугольные <br />
+                светильники
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Catalog End -->
+
+      <!-- Request -->
+      <section class="request">
+        <div class="container">
+          <div class="request_title">
+            <h2>Возьмем ваш проект в работу!</h2>
+            <p class="black_subtitle">
+              Присылайте проект на info@aspro.ru или просто оставьте заявку.
+            </p>
+          </div>
+
+          <form enctype="multipart/form-data" method="post">
+            <div class="request_wrap">
+              <div class="request_left">
+                <p>
+                  <label for="number">
+                    <p class="label_p">Телефон или E-mail</p>
+                    <input
+                      type="text"
+                      id="number"
+                      name="number_email"
+                      value=""
+                      placeholder=""
+                    />
+                  </label>
+                </p>
+                <br />
+                <label for="comment">
+                  <p class="label_p">Комментарий</p>
+                  <input
+                    type="text"
+                    id="comment"
+                    name="customer_comment"
+                    value=""
+                    placeholder=""
+                  />
+                  <span><img src="img/attach.png" alt="" srcset="" /></span>
+                </label>
+              </div>
+              <div class="request_right">
+                <ul>
+                  <li class="black_subtitle">
+                    <span>1.</span> Сделаем подробный светотехнический расчет
+                  </li>
+                  <li class="black_subtitle">
+                    <span>2.</span> Оптимизируем смету
+                  </li>
+                  <li class="black_subtitle">
+                    <span>3.</span> Подберем аналоги!
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="btn_div">
+              <button class="send">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Request End -->
+
+      <!-- Projects -->
+      <section class="container catalog">
+        <div class="catalog_title">
+          <h2>Проекты</h2>
+          <a href="#"><p>Смотреть все проекты</p></a>
+        </div>
+        <!-- <div
+          class="project_slider multiple-items"
+          data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'
+        >
+          <div>
+            <img src="img/project_1.png" alt="" />
+            <p>Офис HTML Academy</p>
+            <p>Москва, Сретенский б-р, д. 1</p>
+          </div>
+          <div>
+            <img src="img/project_1.png" alt="" />
+            <p>Офис HTML Academy</p>
+            <p>Москва, Сретенский б-р, д. 1</p>
+          </div>
+          <div>
+            <img src="img/project_1.png" alt="" />
+            <p>Офис HTML Academy</p>
+            <p>Москва, Сретенский б-р, д. 1</p>
+          </div>
+          <div>
+            <img src="img/project_1.png" alt="" />
+            <p>Офис HTML Academy</p>
+            <p>Москва, Сретенский б-р, д. 1</p>
+          </div>
+          <div>
+            <img src="img/project_1.png" alt="" />
+            <p>Офис HTML Academy</p>
+            <p>Москва, Сретенский б-р, д. 1</p>
+          </div>
+        </div> -->
+      </section>
+      <!-- Projects End -->
+
+      <!-- Industry solutions -->
+      <section class="container industry"></section>
+
+      <!-- Industry solutions End -->
     </main>
 
     <footer></footer>
@@ -142,6 +320,11 @@
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 1000,
+        });
+        $(".multiple-items").slick({
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 1500,
         });
       });
     </script>
