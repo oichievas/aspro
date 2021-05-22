@@ -317,6 +317,9 @@ footer {
 
 .footer_ul form {
   padding: 50px 0;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: wrap;
 }
 
 .footer_ul form input {
@@ -328,6 +331,8 @@ footer {
   border-bottom: 1px solid rgba(252, 252, 252, 0.6) !important;
   outline: none !important;
   border: 0;
+  padding-bottom: 27px;
+  color: #ffffff;
 }
 
 .footer_block ul li h3 {
@@ -338,9 +343,13 @@ footer {
   color: #ffffff;
 }
 
+.footer_block ul {
+  padding-bottom: 20px;
+}
+
 .footer_block ul li {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -352,6 +361,27 @@ footer {
 }
 .social_icons li {
   padding-right: 20px;
+}
+
+.footer_last {
+  border-top: 1px solid rgba(252, 252, 252, 0.6);
+}
+
+.footer_last ul {
+  padding: 20px 0;
+  display: flex;
+  flex-flow: wrap;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.4);
+  margin-right: -25px;
+}
+
+.footer_last ul li {
+  padding-right: 25px;
 }
 /* --------Footer End -----------*/
 
@@ -371,6 +401,10 @@ footer {
   }
   .catalog_block {
     width: 25%;
+  }
+
+  .footer_block {
+    width: 50%;
   }
 }
 
@@ -429,6 +463,17 @@ footer {
 
   .catalog_block {
     width: 50%;
+  }
+
+  .request_right .black_subtitle,
+  .request_left .label_p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .request_left span {
+    float: right;
+    padding-top: 5px;
   }
 
   .industry_block {
