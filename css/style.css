@@ -484,4 +484,9 @@ footer {
   }
 }
 
+@media screen and (max-width: 365px) {
+  .industry_right {
+    margin-right: 0;
+  }
+}
 /* -----Media End------- */
