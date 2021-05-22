@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="fonts/RF Tone/stylesheet.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <title>ASPRO light</title>
@@ -50,26 +50,32 @@
 
     <main>
       <!-- Slider -->
-      <!-- <section class="single-item autoplay slider_banner">
-        <div>
-          <p class="text_slider">
-            Свет, который делает <br />
-            интерьер уютнее
-          </p>
+
+      <section class="slider">
+        <div class="owl-carousel owl-theme" id="slider">
+          <!--Слайд 1-->
+          <div class="slide" style="background-image: url('img/slider_1.png')">
+            <h2>
+              Свет, который делает <br />
+              интерьер уютнее
+            </h2>
+          </div>
+          <!--Слайд 2-->
+          <div class="slide" style="background-image: url('img/slider_1.png')">
+            <h2>
+              Свет, который делает <br />
+              интерьер уютнее
+            </h2>
+          </div>
+          <!--Слайд 3-->
+          <div class="slide" style="background-image: url('img/slider_1.png')">
+            <h2>
+              Свет, который делает <br />
+              интерьер уютнее
+            </h2>
+          </div>
         </div>
-        <div>
-          <p class="text_slider">
-            Свет, который делает <br />
-            интерьер уютнее
-          </p>
-        </div>
-        <div>
-          <p class="text_slider">
-            Свет, который делает <br />
-            интерьер уютнее
-          </p>
-        </div>
-      </section> -->
+      </section>
       <!-- Slider End -->
 
       <!-- Text under slider -->
@@ -446,7 +452,7 @@
                 </form> -->
               </li>
               <li>
-                <!-- <ul class="social_icons">
+                <ul class="social_icons">
                   <li>
                     <a href="">
                       <img src="img/instagram.png" alt="" srcset="" />
@@ -462,13 +468,13 @@
                       <img src="img/telegram.png" alt="" srcset="" />
                     </a>
                   </li>
-                </ul> -->
+                </ul>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <!-- <div class="footer_last">
+      <div class="footer_last">
         <div class="container">
           <ul>
             <li>© aspro, 2021. Копирование материалов с сайта запрещено</li>
@@ -483,33 +489,11 @@
             </li>
           </ul>
         </div>
-      </div> -->
+      </div>
     </footer>
 
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script type="text/javascript" src="js/slick/slick.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $(".single-item").slick();
-        $(".autoplay").slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 1000,
-        });
-        $(".multiple-items").slick({
-          infinite: true,
-          autoplay: true,
-          autoplaySpeed: 1500,
-        });
-      });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
