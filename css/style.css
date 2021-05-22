@@ -84,6 +84,7 @@ nav {
   text-align: center;
 
   color: #ffffff;
+  font-weight: 500;
 }
 
 /* Slider End */
@@ -422,6 +423,12 @@ footer {
     padding: 160px 0;
     font-size: 34px;
   }
+
+  /* Так нельзя , чёрт */
+  .icons_ul {
+    flex-direction: column;
+    margin-top: -50px;
+  }
 }
 @media screen and (max-width: 576px) {
   .text_block {
@@ -484,3 +491,12 @@ footer {
   }
 }
 /* -----Media End------- */
+
+/* Так нельзя */
+
+@media screen and (max-width: 648px) {
+  .icons_ul {
+    flex-direction: row;
+    padding-top: 60px;
+  }
+}
