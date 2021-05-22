@@ -248,6 +248,7 @@ input {
   display: flex;
   flex-flow: wrap;
   justify-content: flex-end;
+  padding: 70px 0;
 }
 
 .industry_left {
@@ -290,6 +291,69 @@ input {
 /* Industry solutions End */
 
 /* --------main--------- */
+
+/* --------Footer -----------*/
+
+footer {
+  background: #252625;
+}
+
+.footer_wrap {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer_block {
+  width: 25%;
+}
+
+.footer_ul {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+.footer_ul form {
+  padding: 50px 0;
+}
+
+.footer_ul form input {
+  border-bottom: 1px solid rgba(252, 252, 252, 0.6);
+}
+
+.footer_ul form button {
+  background: transparent;
+  border-bottom: 1px solid rgba(252, 252, 252, 0.6) !important;
+  outline: none !important;
+  border: 0;
+}
+
+.footer_block ul li h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-weight: 300;
+
+  color: #ffffff;
+}
+
+.footer_block ul li {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social_icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: -20px;
+}
+.social_icons li {
+  padding-right: 20px;
+}
+/* --------Footer End -----------*/
 
 /* -----Media------- */
 
