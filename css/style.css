@@ -25,6 +25,10 @@ h2 {
   color: rgba(0, 0, 0, 0.35);
 }
 
+.block_title {
+  font-size: 32px;
+}
+
 /* --------header-------- */
 nav {
   padding: 10px 0;
