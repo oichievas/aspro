@@ -1,6 +1,8 @@
 .item li {
   padding: 20px;
   display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -9,18 +11,23 @@
   width: 100%;
   display: inline-block;
   margin-bottom: 15px;
+  width: 25%;
+}
+
+select {
+  width: 100px;
 }
 
 .item li .select select {
-  width: 100%;
-  display: inline-block;
+  width: auto;
+  display: flex;
+  flex-flow: wrap;
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 5px 0;
   outline: 0;
   border: 0;
   border-radius: 0;
   color: #7b7b7b;
-  appearance: none;
   border-bottom: 1px solid #4c4c4c;
 }
 .item li .select select::-ms-expand {
@@ -53,3 +60,21 @@
 .item li .select select:disabled ~ .select__arrow {
   border-top-color: #ccc;
 }
+
+/* -----Media----- */
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .item li .select {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0px 1rem;
+  }
+}
+
+/* -----Media End----- */

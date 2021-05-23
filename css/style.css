@@ -145,7 +145,7 @@ nav {
   padding-bottom: 15px;
 }
 
-.catalog a {
+.catalog .a_underline {
   text-align: right;
 }
 
@@ -168,6 +168,11 @@ nav {
 .catalog_inblock img {
   width: 100%;
   margin-bottom: 10px;
+}
+
+.catalog_title .a_underline {
+  padding: 10px 0 !important;
+  font-size: 16px;
 }
 
 /* Catalog */
