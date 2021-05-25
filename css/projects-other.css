@@ -81,6 +81,54 @@
   background-image: url("../img/decision_cafe.png");
 }
 
+.decition_first {
+  align-items: center;
+}
+
+.decition_first .left {
+  width: 40%;
+}
+
+.decition_first .right {
+  width: 60%;
+}
+
+.decition_first .right_text div {
+  padding: 0 0 30px 0;
+}
+
+.decition_second p {
+  text-align: left;
+  padding: 40px 0;
+}
+
+/* -----Partners------= */
+
+.partner_content .professionals {
+  padding: 50px 0;
+}
+
+.partner_content h2 {
+  padding-bottom: 20px;
+}
+
+.professionals .partner_p {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.wrap_p {
+  line-height: 35px;
+  padding-bottom: 50px;
+}
+
+.professionals_info .medium_p {
+  padding-bottom: 35px;
+}
+
+.professionals_info .small_p {
+  padding-bottom: 20px;
+}
 /* ----Media------ */
 
 @media screen and (max-width: 992px) {
@@ -110,9 +158,34 @@
     /* Project */
     font-size: 19px;
   }
+
+  /* Decision */
+  .decition_first .right_text div {
+    padding: 0 0 20px 0;
+  }
+
+  .decition_first .left_text {
+    font-size: 22px;
+  }
+
+  .decition_first .right_text h5 {
+    font-size: 16px;
+  }
+
+  .decition_first .right_text p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .decition_first .left {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .decition_first .right {
+    width: 100%;
+  }
 }
 
 /* ----Media End------ */

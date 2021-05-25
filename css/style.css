@@ -32,6 +32,21 @@ h2 {
   font-size: 32px;
 }
 
+.medium_p {
+  font-size: 32px;
+}
+
+.small_p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.slim_p {
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 /* --------header-------- */
 .fixed {
   position: fixed;
@@ -201,7 +216,6 @@ nav {
 .request {
   background: rgba(0, 0, 0, 0.05);
   padding: 30px;
-  margin-bottom: 50px;
 }
 
 .request_title {
