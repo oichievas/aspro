@@ -214,14 +214,24 @@
               <br />
               <label for="comment">
                 <p class="label_p">Комментарий</p>
-                <input
-                  type="text"
-                  id="comment"
-                  name="customer_comment"
-                  value=""
-                  placeholder=""
-                />
-                <span><img src="img/attach.png" alt="" srcset="" /></span>
+                <div class="input_wrap">
+                  <input
+                    type="text"
+                    id="comment"
+                    name="customer_comment"
+                    value=""
+                    placeholder=""
+                  />
+                  <div class="image-upload">
+                    <label for="file-input">
+                      <img
+                        src="img/attach.png"
+                        style="pointer-events: none"
+                      />
+                    </label>
+                    <input id="file-input" type="file" />
+                  </div>
+                </div>
               </label>
             </div>
             <div class="request_right">

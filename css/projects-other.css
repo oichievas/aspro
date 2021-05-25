@@ -1,0 +1,75 @@
+/* --project_slide--- */
+
+.project_slide .slide {
+  background-image: url("../img/project_slide.png");
+}
+
+.project_slide .slide h2 {
+  padding-bottom: 0;
+}
+
+.project_slide .slide p {
+  font-size: 20px;
+  text-align: center;
+  color: #e3e3e3;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 220px;
+}
+
+/* --project_slide End--- */
+
+/* ---adress_project-- */
+
+.adress_wrap {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.adress_left {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.adress_left .table_info {
+  padding-left: 20px;
+}
+
+.adress_right {
+  width: 45%;
+}
+
+.table li,
+.table_info li {
+  padding-bottom: 20px;
+}
+
+.table li {
+  font-weight: 265;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.table_info li {
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.table li:last-child,
+.table_info li:last-child {
+  padding-bottom: 0;
+}
+
+.adress_right p {
+  padding-bottom: 15px;
+  font-weight: 265;
+  font-size: 14px;
+}
+/* ---adress_project end-- */
+
+/* ----Media------ */
+
+/* ----Media End------ */

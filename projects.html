@@ -28,8 +28,8 @@
             </li>
           </ul>
           <ul class="menu nav_ul">
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="">Решения</a></li>
+            <li><a href="designers_in.html">Каталог</a></li>
+            <li><a href="decisions.html">Решения</a></li>
             <li><a href="projects.html">Проекты</a></li>
             <li><a href="">Партнерам</a></li>
             <li><a href="">Контакты</a></li>
@@ -72,7 +72,7 @@
       <section class="container catalog project_catalog">
         <div class="catalog_wrap">
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/1_project.png" alt="" />
                 <div class="catalog_info">
@@ -83,7 +83,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/2_project.png" alt="" />
                 <div class="catalog_info">
@@ -94,7 +94,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/3_project.png" alt="" />
                 <div class="catalog_info">
@@ -105,7 +105,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/4_project.png" alt="" />
                 <div class="catalog_info">
@@ -116,7 +116,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/1_project.png" alt="" />
                 <div class="catalog_info">
@@ -127,7 +127,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/2_project.png" alt="" />
                 <div class="catalog_info">
@@ -138,7 +138,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/3_project.png" alt="" />
                 <div class="catalog_info">
@@ -149,7 +149,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/4_project.png" alt="" />
                 <div class="catalog_info">
@@ -160,7 +160,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/1_project.png" alt="" />
                 <div class="catalog_info">
@@ -171,7 +171,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/2_project.png" alt="" />
                 <div class="catalog_info">
@@ -182,7 +182,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/3_project.png" alt="" />
                 <div class="catalog_info">
@@ -193,7 +193,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/4_project.png" alt="" />
                 <div class="catalog_info">
@@ -204,7 +204,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/1_project.png" alt="" />
                 <div class="catalog_info">
@@ -215,7 +215,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/2_project.png" alt="" />
                 <div class="catalog_info">
@@ -226,7 +226,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/3_project.png" alt="" />
                 <div class="catalog_info">
@@ -237,7 +237,7 @@
             </a>
           </div>
           <div class="catalog_block">
-            <a href="catalog.html">
+            <a href="designers_in.html">
               <div class="catalog_inblock">
                 <img src="img/4_project.png" alt="" />
                 <div class="catalog_info">
@@ -279,14 +279,24 @@
                 <br />
                 <label for="comment">
                   <p class="label_p">Комментарий</p>
-                  <input
-                    type="text"
-                    id="comment"
-                    name="customer_comment"
-                    value=""
-                    placeholder=""
-                  />
-                  <span><img src="img/attach.png" alt="" srcset="" /></span>
+                  <div class="input_wrap">
+                    <input
+                      type="text"
+                      id="comment"
+                      name="customer_comment"
+                      value=""
+                      placeholder=""
+                    />
+                    <div class="image-upload">
+                      <label for="file-input">
+                        <img
+                          src="img/attach.png"
+                          style="pointer-events: none"
+                        />
+                      </label>
+                      <input id="file-input" type="file" />
+                    </div>
+                  </div>
                 </label>
               </div>
               <div class="request_right">
