@@ -25,7 +25,12 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  padding: 50px;
+  padding: 50px 0;
+}
+
+.adress_left,
+.adress_right {
+  padding-bottom: 10px;
 }
 
 .adress_left {
@@ -71,5 +76,33 @@
 /* ---adress_project end-- */
 
 /* ----Media------ */
+
+/* Project */
+@media screen and (max-width: 992px) {
+  .table li,
+  .table_info li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .adress_left {
+    width: 100%;
+  }
+  .table li,
+  .table_info li {
+    font-size: 18px;
+  }
+
+  .adress_right {
+    width: 100%;
+  }
+
+  .adress_right p {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
 
 /* ----Media End------ */
