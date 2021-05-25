@@ -75,29 +75,39 @@
 }
 /* ---adress_project end-- */
 
+/* -----------Decision ---------------- */
+
+.decision_slide .slide {
+  background-image: url("../img/decision_cafe.png");
+}
+
 /* ----Media------ */
 
-/* Project */
 @media screen and (max-width: 992px) {
+  /* Project */
   .table li,
   .table_info li {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 768px) {
+  /* Project */
   .adress_left {
     width: 100%;
   }
   .table li,
   .table_info li {
+    /* Project */
     font-size: 18px;
   }
 
   .adress_right {
+    /* Project */
     width: 100%;
   }
 
   .adress_right p {
+    /* Project */
     font-size: 19px;
   }
 }
