@@ -129,6 +129,22 @@
 .professionals_info .small_p {
   padding-bottom: 20px;
 }
+
+/* --------Contacts---------- */
+
+.contact {
+  padding: 80px 0;
+}
+
+.contact h2 {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.contacts_wrap td {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
 /* ----Media------ */
 
 @media screen and (max-width: 992px) {
