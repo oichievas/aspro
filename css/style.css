@@ -3,8 +3,11 @@ body {
 }
 
 h2 {
-  font-size: 32px;
-  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
 }
 
 .small_title {
@@ -31,7 +34,7 @@ h2 {
 
 /* --------header-------- */
 nav {
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
@@ -55,6 +58,10 @@ nav {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.logo_ul li p {
+  font-size: 14px;
+}
+
 .nav_ul li {
   padding-right: 30px;
   font-size: 18px;
@@ -64,6 +71,10 @@ nav {
 
 .icons_ul li {
   padding-right: 15px;
+}
+
+.icons_ul li:last-child {
+  padding-right: 0;
 }
 /* --------header-------- */
 
@@ -76,6 +87,7 @@ nav {
 }
 
 .slide {
+  background-image: url("../img/slider_1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,6 +223,11 @@ input {
   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
   outline: 0;
   background: transparent;
+  width: 200px;
+}
+
+.input_wrap {
+  display: flex;
 }
 
 .btn_div {
@@ -228,6 +245,12 @@ input {
   outline: auto;
   cursor: pointer;
   letter-spacing: 1.5px;
+}
+
+.image-upload > input {
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 /* Request End*/
@@ -250,6 +273,7 @@ input {
 
 .industry_left h2 {
   padding-bottom: 35px;
+  text-align: left;
 }
 
 .industry_left p {

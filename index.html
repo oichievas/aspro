@@ -23,9 +23,11 @@
               /></a>
             </li>
             <li>
-              Профессиональные световые
-              <br />
-              решения.
+              <p>
+                Профессиональные световые
+                <br />
+                решения.
+              </p>
             </li>
           </ul>
           <ul class="menu nav_ul">
@@ -58,21 +60,21 @@
       <section class="slider">
         <div class="owl-carousel owl-theme" id="slider">
           <!--Слайд 1-->
-          <div class="slide" style="background-image: url('img/slider_1.png')">
+          <div class="slide">
             <h2>
               Свет, который делает <br />
               интерьер уютнее
             </h2>
           </div>
           <!--Слайд 2-->
-          <div class="slide" style="background-image: url('img/slider_1.png')">
+          <div class="slide">
             <h2>
               Свет, который делает <br />
               интерьер уютнее
             </h2>
           </div>
           <!--Слайд 3-->
-          <div class="slide" style="background-image: url('img/slider_1.png')">
+          <div class="slide">
             <h2>
               Свет, который делает <br />
               интерьер уютнее
@@ -250,14 +252,24 @@
                 <br />
                 <label for="comment">
                   <p class="label_p">Комментарий</p>
-                  <input
-                    type="text"
-                    id="comment"
-                    name="customer_comment"
-                    value=""
-                    placeholder=""
-                  />
-                  <span><img src="img/attach.png" alt="" srcset="" /></span>
+                  <div class="input_wrap">
+                    <input
+                      type="text"
+                      id="comment"
+                      name="customer_comment"
+                      value=""
+                      placeholder=""
+                    />
+                    <div class="image-upload">
+                      <label for="file-input">
+                        <img
+                          src="img/attach.png"
+                          style="pointer-events: none"
+                        />
+                      </label>
+                      <input id="file-input" type="file" />
+                    </div>
+                  </div>
                 </label>
               </div>
               <div class="request_right">
@@ -309,7 +321,7 @@
               <a href="">
                 <div class="industry_inblock">
                   <img src="img/industry_3.png" alt="" />
-                  <p class="small_title">3Рестораны и кафе</p>
+                  <p class="small_title">Рестораны и кафе</p>
                 </div>
               </a>
             </div>
