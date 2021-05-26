@@ -193,7 +193,19 @@ iframe {
   padding-top: 0;
 }
 
-/* -----Delivery-------- */
+/* -----Designers-------- */
+
+.designers {
+  padding: 90px 0;
+}
+
+.designers_info h2 {
+  text-align: left;
+}
+
+.designers_info .slim_p {
+  padding-top: 20px;
+}
 
 /* ----Media------ */
 
