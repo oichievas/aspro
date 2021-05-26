@@ -170,6 +170,31 @@ iframe {
 .wrap_button table {
   padding-bottom: 45px;
 }
+
+/* -----Garant------ */
+.garant h2,
+.garant p {
+  text-align: left;
+}
+
+.garant_block {
+  padding: 50px 0;
+}
+
+.garant_block p {
+  padding-top: 20px;
+}
+
+.garant_block a {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.garant_block:last-child {
+  padding-top: 0;
+}
+
+/* -----Delivery-------- */
+
 /* ----Media------ */
 
 @media screen and (max-width: 992px) {

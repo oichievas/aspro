@@ -47,6 +47,17 @@ h2 {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.small_bold {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.medium_bold {
+  font-weight: 400;
+  font-size: 22px;
+}
+
 /* --------header-------- */
 .fixed {
   position: fixed;
